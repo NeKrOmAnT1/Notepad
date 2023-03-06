@@ -1,0 +1,21 @@
+﻿<Window x:Class="Notepad.Новая_папка.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad.Новая_папка"
+        mc:Ignorable="d"
+        Title="Справка" Height="450" Width="800"  WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+
+            <TextBlock TextWrapping="Wrap" Margin="15px" FontSize="20px" Text="Блокнот"/>
+            <TextBlock TextWrapping="Wrap" Margin="15px" FontSize="20px" Text="Версия: 1.0.0"/>
+            <TextBlock TextWrapping="Wrap"  Margin="15px" FontSize="20px" Text="Copyright © 2023-2023"/>
+            <TextBlock TextWrapping="Wrap"  Margin="15px" FontSize="20px" Text="Разработчик: no_information"/>
+            <TextBlock TextWrapping="Wrap"  Margin="15px" FontSize="20px" Text="email: no_information"/>
+            <TextBlock TextWrapping="Wrap" Margin="15px" FontSize="20px" Text="Donations: no_information"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
